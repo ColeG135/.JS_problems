@@ -1,12 +1,34 @@
-//write first method
-function sleep_in(weekday,vacation) {
-    return weekday;
+function sleep_in(weekday, vacation) {
+
+    if (weekday == true && vacation == false) {
+        return false;
+    }
+    if (weekday == true && vacation == true) {
+        return true;
+    }
+    if (weekday == false && vacation == false) {
+        return true;
+    }
+    if (weekday == false && vacation == true) {
+        return true;
+    }
+
 }
-//write second method
-function monkey_trouble(param1, param2) {
-    return param1;
-}
-//add 2-10 below here...
+
+function monkey_trouble(a_smile, b_smile) {
+
+    if (a_smile == true && b_smile == true) {
+        return true;
+    }
+    if (a_smile == true && b_smile == false) {
+        return false;
+    }
+    if (a_smile == false && b_smile == false) {
+        return true;
+    }
+    if (a_smile == false &&  b_smile == true) {
+        return false;
+    }
 function string_times (str, n) {
     return str;
 }
