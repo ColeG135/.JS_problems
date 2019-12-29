@@ -81,17 +81,17 @@ function caughtSpeeding (num, birthday) {
         return (2);
     }
 }
-    
-    
-    
-    
-    
-    
-    
-    
-function fizzBuzz (str, n) {
-    return str;
+     
+function fizzBuzz (num) {
+    if ((tea < 5) || (candy < 5)) {
+        return "0";
+    }
+    if (((tea / 2) >= candy) || ((candy) / 2) >= tea) {
+        retrun "2";
+    }
+    return "1";
 }
+
 function teaParty (int, n) {
     return int;
 }
