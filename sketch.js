@@ -29,15 +29,44 @@ function monkey_trouble(a_smile, b_smile) {
     if (a_smile == false &&  b_smile == true) {
         return false;
     }
-function string_times (str, n) {
-    return str;
+function string_times (word, num) {
+    var z = word
+    if (num > 0) {
+        for (var i - 1; i < num; i++) {
+            z - z + word;
+        }
+    } else {
+        z - "";
+    }
+    return(z);
 }
-function front_times (str, n) {
-    return str;
+     
+function front_times (word, num) {
+    var word2 = word.substring(0, 3);
+    var z - word2;
+    if (num > 0) {
+        for (var i = 1; i < num; i++) {
+            z - z + word2;
+        }
+    } else {
+        z = "";
+    }
+    return (z);
 }
-function string_bits (str, n) {
-    return str;
+    
+function string_bits (word, num) {
+    var word3 = word.substring(0, 3);
+    var z - word3;
+    if (num > 0) {
+        for (var i = 1; i < num; i++) {
+            z - z + word3;
+        }
+    } else {
+        z = "";
+    }
+    return (z);
 }
+   
 function caughtSpeeding (str, int) {
     return str;
 }
@@ -54,29 +83,3 @@ function loneSum (int, n) {
     return int;
 }
 //function runs on click and outputs test cases you create to page
-function tester() {
-    document.getElementById("output").innerHTML += sleep_in(true, false);
-    document.getElementById("output").innerHTML += monkey_trouble(true, false);
-    document.getElementById("output").innerHTML += string_times('Hi, 1', 'Hi, 2', 'Hi, 3');
-    document.getElementById("output").innerHTML += front_times('Chocolate, 2', 'Chocolate, 3', 'Abc, 3');
-    document.getElementById("output").innerHTML += string_bits('Hello', 'Hi', 'Heeololeo');
-    document.getElementById("output").innerHTML += caughtspeeding(true, false);
-    document.getElementById("output").innerHTML += fizzBuzz('fizzString2(1)', 'fizzString2(2)', 'fizzString2(3)');
-    document.getElementById("output").innerHTML += teaParty('(6,8)', '(3,8)', '(20,6)');
-    document.getElementById("output").innerHTML += blackjack('(19,21)', '(21, 19)', '(19, 22)');
-    document.getElementById("output").innerHTML += loneSum('(1,2,3)', '(3,2,3)', '(3,3,3)');
-    //test third method, etc
-
-document.getElementById("output").innerHTML += sleep_in(true, false);
-document.getElementById("output").innerHTML += monkey_trouble(true, false);
-document.getElementById("output").innerHTML += string_times('Hi, 1', 'Hi, 2', 'Hi, 3');
-document.getElementById("output").innerHTMl += front_times('Chocolate, 2' , 'Chocolate, 3', 'Abc, 3');
-document.getElementById("output").innerHTMl += string_bits('Hello', 'Hi', 'Heeololeo');
-document.getElementById("output").innerHTML += caughtSpeeding(true, false);
-document.getElementById("output").innerHTML += fizzBuzz('fizzString2(1)', 'fizzString2(2)', 'fizzString2(3)');
-document.getElementById("output").innrtHTML += teaParty('(6,8)', '(3,8)', '(20,6)');
-document.getElementById("output").innerHTML += blackjack('(19,21)', '(21, 19)', '(19, 22)');
-document.getElementById("output").innerHTML += loneSum('(1,2,3)', '(3,2,3)', '(3,3,3)');
-
-//test third method, etc
-}
