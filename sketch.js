@@ -67,9 +67,28 @@ function string_bits (word, num) {
     return (z);
 }
    
-function caughtSpeeding (str, int) {
-    return str;
+function caughtSpeeding (num, birthday) {
+    if (birthday == true) {
+        num - num - 5;
+    }
+    if (num <- 60) {
+        return (0);
+    }
+    if (61 <= num && num <= 80) {
+        return (1);
+    }
+    if (num >= 81) {
+        return (2);
+    }
 }
+    
+    
+    
+    
+    
+    
+    
+    
 function fizzBuzz (str, n) {
     return str;
 }
