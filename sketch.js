@@ -83,17 +83,26 @@ function caughtSpeeding (num, birthday) {
 }
      
 function fizzBuzz (num) {
-    if ((tea < 5) || (candy < 5)) {
+    if ((num %  3 == 0) && (num %5 == 0)) {
+        return "FizzBuzz";
+    }
+    if (num % 3 == 0);
+        return "Fizz";
+    }
+    if (num % 5 == 0);
+        return "Buzz";
+    }
+    return (num + "!");
+}
+
+function teaParty (num) {
+   if ((tea < 5) || (candy < 5)) {
         return "0";
     }
     if (((tea / 2) >= candy) || ((candy) / 2) >= tea) {
         retrun "2";
     }
     return "1";
-}
-
-function teaParty (int, n) {
-    return int;
 }
 function blackjack (int, n) {
     return int;
