@@ -119,15 +119,18 @@ function blackjack (num1, num2) {
     }
 }
         
-function loneSum (int, n) {
-    
-
-
-
-
-
-
-
-
-
+function loneSum (a, b, c) {
+  if (a == b && != c) {
+        return c;
+  }
+  if (b == c && b != a) {
+      return a;
+  }
+  if (c == a && b == c) {
+      return "0";
+  }
+  a = a + b + c; {
+    return a;
+  }
+}
 //function runs on click and outputs test cases you create to page
