@@ -104,10 +104,30 @@ function teaParty (num) {
     }
     return "1";
 }
-function blackjack (int, n) {
-    return int;
+function blackjack (num1, num2) {
+    if ((num1 > 21) && (num2 > 21)) {
+        return "0" 
+    }
+    if (num1 > 21) {
+        return num2;
+    }
+    if (num1 > num2) {
+        return num1;
+    }
+    if (num1 < num2) {
+        return num2;
+    }
 }
+        
 function loneSum (int, n) {
-    return int;
-}
+    
+
+
+
+
+
+
+
+
+
 //function runs on click and outputs test cases you create to page
